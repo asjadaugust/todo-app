@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "todo"
+version = "0.1.0"
+description = ""
+authors = ["Mohammad Asjad <mohammad.asjad@klm.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+fastapi = "^0.110.0"
+uvicorn = "^0.24.0.post1"
+gunicorn = "^21.2.0"
+sqlalchemy = "^2.0.28"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
